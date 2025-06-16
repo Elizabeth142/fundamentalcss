@@ -1,0 +1,74 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Business card container */
+.business-card {
+  background-color: #ffffff;
+  width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+}
+
+/* Header section */
+.card-header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-header img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.card-header h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.card-header .title {
+  font-size: 14px;
+  color: #cfd9e2;
+}
+
+/* Body section */
+.card-body {
+  padding: 20px;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Footer section */
+.card-footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 13px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
